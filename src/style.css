@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+h1 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 18px;
+  color: grey;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.about {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 20px 15px 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.contact {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 15px 20px 15px 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.title {
+  font-size: 40px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 100%;
+  border: 1px solid var(--primary-color);
+}
+.title:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.projectdescription {
+  background-color: var(--secondary-color);
+}
