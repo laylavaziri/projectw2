@@ -14,6 +14,36 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Layla Vaziri</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <h1 class="text-center">👋🏽 Hi I am</h1>
     <h2 class="text-center">Layla Vaziri</h2>
     <h3 class="text-center">🇰🇭 Front-end developer based in SEA</h3>
@@ -23,8 +53,8 @@
     </div>
     <div class="container text-center">
       <div class="row project1">
-        <div class="col-md-6">
-          <img class="rounded" src="src/images/2ndproject.png" />
+        <div class="col-md-6 image rounded my-auto">
+          <img class="rounded my-auto" src="src/images/2ndproject.png" />
         </div>
         <div class="col-md-6 projectdescription rounded">
           <div class="links">
@@ -35,6 +65,8 @@
             >
           </div>
           <p>
+            <br />
+            <br />
             Using this app, you can search the name of any city and receive the
             current temperature in celcius and fahrenheit. It will also show you
             the temperature of the next 5 days, at the exact same time of the
@@ -46,26 +78,29 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 p-3">
-          <img class="rounded" src="src/images/mid-project.png" />
-        </div>
-        <div class="col-md-6 projectdescription">
+        <div class="col-md-6 projectdescription rounded">
           <div class="title rounded links">My first try</div>
           <p>
+            <br />
+            <br />
             This one is very similar to the previous one, but I had not worked
             on the colours as much. To be fair, I am not very good at designing
             and colours anyway! So I cannot claim that the other one is an
             improvement to this one!
           </p>
         </div>
+        <div class="col-md-6 image rounded my-auto">
+          <img class="rounded" src="src/images/mid-project.png" />
+        </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 image rounded my-auto">
           <img class="rounded" src="src/images/1stproject.png" />
         </div>
-        <div class="col-md-6 projectdescription">
+        <div class="col-md-6 projectdescription rounded my-auto">
           <div class="title rounded links">Parent Support Group</div>
           <p>
+            <br />
             As a parent of deaf children, you can connect with other parents and
             Deaf nannies. We believe that connecting with others who share your
             social identity helps you feel belonged, less alone and more
