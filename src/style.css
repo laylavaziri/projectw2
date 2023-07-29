@@ -7,6 +7,9 @@
   .index-image {
     display: none;
   }
+  .special-heading {
+    font-size: 50px;
+  }
 }
 h1 {
   font-size: 30px;
