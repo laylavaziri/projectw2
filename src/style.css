@@ -3,7 +3,7 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   img {
     display: none;
   }
